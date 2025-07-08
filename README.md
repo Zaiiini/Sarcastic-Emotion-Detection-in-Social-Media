@@ -10,10 +10,12 @@ DAIR-AI Emotion: Six emotion categories.
 # Model:
 Labeled datasets for sarcasm (news headlines) and emotion (social text) were merged, preprocessed, and tokenized with appropriate label masking. 
 A shared DistilBERT encoder was trained, ensuring balanced learning and optimal generalization across both tasks.
+         
+Accuracy:      	90.00% (Sarcasm)  ,   	93.00% (Emotion)
 
- Metric	        Sarcasm	      Emotion
-Accuracy      	90.00%      	93.00%
-Precision	      90.00%	      93.80%
-Recall	        90.00%      	90.50%
-F1-Score      	90.00%	      91.60%
+Precision:	      90.00% (Sarcasm)	 ,     93.80% (Emotion)
+
+Recall	        90.00% (Sarcasm)   ,  	90.50% (Emotion)
+
+F1-Score      	90.00%	(Sarcasm)   ,  91.60% (Emotion)
 
